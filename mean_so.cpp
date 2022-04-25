@@ -1,10 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-	// int arr[]={12,13,14,15,16,17,29,28,27,26,25,24,23,21,4,42,
-	// 	2,89,23,8923,2391,23982,98213,24,123,31,43,21,892,78,12,32,3,27,9};
-	// int n=sizeof(arr)/sizeof(arr[0]);
-	// int si=0,ei=n-1;
 	bool swapped=0,ordered=0;
 	double sum=0,mean=0;
 	int bi=0;
@@ -58,8 +54,7 @@ void sort(int arr[],int si,int ei){
 
 int main(){
 
-	// int arr[]={12,13,14,15,16,17,29,28,27,26,25,24,23,21,4,42,
-	// 	2,89,23,8923,2391,23982,98213,24,123,31,43,21,892,78,12,32,3,27,9};
+	
 	int arr[100];
 	for(int i=0;i<100;i++){
 	int	x=rand()%100;
